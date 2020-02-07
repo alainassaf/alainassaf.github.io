@@ -32,22 +32,31 @@ avatar: "/img/avatar-icon.png"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
-title-img: "/img/alainassaf_logo_square.png"
+#title-img: "/img/alainassaf_logo_square.png"
 
 # --- Background colour/image options --- #
 
 # Personalize the colors in your website. Colour values can be any valid CSS colour
 
 #navbar-col: "#F5F5F5"
-navbar-col: "#16609F"
-navbar-text-col: "#404040"
-navbar-children-col: "#F5F5F5"
+#navbar-text-col: "#404040"
+#navbar-children-col: "#F5F5F5"
 page-col: "#FFFFFF"
-link-col: "#008AFF"
+#link-col: "#008AFF"
 hover-col: "#0085A1"
-footer-col: "#F5F5F5"
-footer-text-col: "#777777"
-footer-link-col: "#404040"
+#footer-col: "#F5F5F5"
+#footer-text-col: "#777777"
+#footer-link-col: "#404040"
+
+navbar-col: "#16609F"
+navbar-text-col: "#ffffff"
+navbar-children-col: "#16609F"
+#page-col: "#16609F"
+link-col: "#0c365a"
+#hover-col: "#16609F"
+footer-col: "#16609F"
+footer-text-col: "#ffffff"
+footer-link-col: "#0c365a"
 
 # Alternatively, the navbar, footer, and page background can be set to use background images
 # instead of colour
