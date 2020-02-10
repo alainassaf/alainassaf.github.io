@@ -11,10 +11,10 @@ description: My PowerShell focused blog
 # *** If you're not sure what this mean, then leave this section as it is. Only modify the url and baseurl if you know what you're doing!***
 
 # url is the the website domain URL without a trailing slash
-#url: "https://example.com"
+url: "https://alainassaf.github.io"
 
 # baseurl should be an empty string
-#baseurl: ""
+baseurl: ""
 
 # --- Navigation bar options --- #
 
@@ -170,6 +170,11 @@ title-separator: "-"
 
 # Ruby Date Format
 date_format: "%B %-d, %Y"
+
+# pagination
+plugins: [jekyll-paginate]
+paginate: 5
+paginate_path: "blog/page:num"
 
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
