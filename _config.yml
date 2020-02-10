@@ -73,8 +73,8 @@ footer-link-col: "#0c365a"
 
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
-# author: Alain Assaf
-name: Alain Assaf
+author:
+  name: Alain Assaf
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
@@ -84,10 +84,10 @@ social-network-links:
   rss: true
   email: "alainassaf@outlook.com"
 # facebook: deanattali
+  linkedin: alainassaf
   github: alainassaf
   twitter: alainassaf
 #  reddit: yourname
-  linkedin: alainassaf
 #  xing: yourname
   stackoverflow: "8116825/alainassaf"
 #  snapchat: deanat78
