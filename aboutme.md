@@ -20,7 +20,7 @@ In June 2018, I became a leader of the Raleigh-Durham Citrix User Group.
 You can view [**LinkedIn Profile**](http://www.linkedin.com/in/alainassaf){:target="_blank"} for more information (please connect). You can also follow me on [**Twitter**](http://www.twitter.com/alainassaf){:target="_blank"}. I also maintain several repositories on [**GitHub**](https://github.com/alainassaf){:target="_blank"} (including gists and code from this blog).
 
 
-I can be reached directly at: alainassaf &lt;AT&gt; outlook &lt;DOT&gt; com
+I can be reached directly at: <alainassaf@outlook.com>
 
 
 Thanks for reading,  
