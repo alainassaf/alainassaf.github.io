@@ -1,24 +1,13 @@
 ---
 layout: page
-title: Alain Assaf
-subtitle: A landing page for new blog
-use-site-title: true
+title: PowerEUCShell
+subtitle: By Alain Assaf
 ---
 
-Bla, bla intro
+Welcome to PowerEUCShell, my Github pages site that focuses on learning PowerShell and how to leverage it to manage EUC technologies. 
 
----
-## What I Am Known For
+# Recent Posts
 
-PowerShell, Citrix, CUGC Leader
+Here are my recent posts...
 
-My [LinkedIn Profile](https://www.linkedin.com/in/alainassaf/){:target="_blank"}  has more information as well.
-
----
-## How I Got Here
-
-Born at the age of zero
-
-## Things I've Learned So far
-
-1 + 1 = 2
+{% include recent-posts.md %}* [More](sitemap/?utm_source=blog&utm_medium=blog&utm_content=recent)
