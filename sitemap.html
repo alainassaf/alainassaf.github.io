@@ -1,6 +1,6 @@
 ---
-layout: page 
-title: 
+layout: page
+title:
 ---
 
 <h3>All Posts</h3>
@@ -15,6 +15,9 @@ title:
     {% endfor %}
 </table>
 <h3>All Pages</h3>
-{% for page in site.pages %} {% if page.layout != nil %} {% if page.layout != 'feed' %}
-<br /> <a href="http://alainassaf.github.io{{ post.url | remove: 'index.html' }}">{{ post.title }}</a>
-{% endif %} {% endif %} {% endfor %}
+{% for page in site.pages %}
+{% if page.layout != nil %}
+{% if page.layout != 'feed' %}
+<li><a href="http://alainassaf.github.io{{ page.url | remove: 'index.html' }}">{{ page.title }}</a></li>
+{% endif %} {% endif %}
+{% endfor %}

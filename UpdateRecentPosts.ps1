@@ -2,8 +2,8 @@
 param(
     $path = 'D:\Codevault\PoSH\blog\alainassaf.github.io\_posts\*.md' 
 )
-$path = (LS $path | sort name -Descending | select -First 8).fullname
-$lineTemplate = '* {0} [{1}](/{2}/?utm_source=blog&utm_medium=blog&utm_content=recent)'
+$path = (Get-ChildItem $path | Sort-Object name -Descending | Select-Object -First 8).fullname
+$lineTemplate = '* {0} [**{1}**](/{2}/?utm_source=blog&utm_medium=blog&utm_content=recent)'
 $template = @'
 ---
 layout: post
@@ -15,16 +15,14 @@ tags: [{Tags:PowerShell,PSGraph,GraphViz}]
 
 $output = foreach ($node in $path) {
 
-   
-
     $parsedValues = Get-Content $node -raw | ConvertFrom-String -TemplateContent $template
-    $tags = $parsedValues | where Tags | % { $_.Tags -split ',' } | % { $_.trim() }
+    $tags = $parsedValues | Where-Object Tags | ForEach-Object { $_.Tags -split ',' } | ForEach-Object { $_.trim() }
 
     $postInfo = [pscustomobject]@{
         Post  = (Split-Path $node -Leaf).Replace('.md', '')
-        Title = $parsedValues | where Title | % Title 
+        Title = $parsedValues | Where-Object Title | ForEach-Object Title 
         Tags  = $tags
-        Date  = $parsedValues | where Date | % Date
+        Date  = $parsedValues | Where-Object Date | ForEach-Object Date
     }
     $lineTemplate -f $postInfo.Date, $postInfo.Title, $postInfo.Post
 }
