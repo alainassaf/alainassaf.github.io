@@ -24,7 +24,7 @@ navbar-links:
   Blog:
     - Posts: "blog"
     - Search: "search/?utm_source=blog&utm_medium=blog&utm_content=navbar"
-    - Tags: "https://alainassaf.github.io/tags"
+    - Tags: "tags"
     - RSS: "feed.xml"
   Resources:
     - Sitemap: "sitemap"
