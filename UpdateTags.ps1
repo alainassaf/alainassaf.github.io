@@ -1,6 +1,6 @@
 $path = "D:\Codevault\PoSH\blog\alainassaf.github.io\_posts"
 $tagFile = 'D:\Codevault\PoSH\blog\alainassaf.github.io\tags.md'
-$postList = LS $path -Filter *.md
+$postList = Get-ChildItem $path -Filter *.md
 
 $template = @'
 ---
@@ -14,13 +14,13 @@ tags: [{Tags:PowerShell,PSGraph,GraphViz}]
 $tagList = @{ }
 foreach ($file in $postList) {
     $parsedValues = Get-Content $file.FullName -raw | ConvertFrom-String -TemplateContent $template
-    $tags = $parsedValues | where Tags | % { $_.Tags -split ',' }
+    $tags = $parsedValues | Where-Object Tags | ForEach-Object { $_.Tags -split ',' }
 
     $post = [pscustomobject]@{
         Post  = $file.basename
-        Title = $parsedValues | where Title | % Title 
+        Title = $parsedValues | where-object Title | ForEach-Object Title 
         Tags  = $tags
-        Date  = $parsedValues | where Date | % Date
+        Date  = $parsedValues | where-object Date | ForEach-Object Date
     }
 
     foreach ($tag in $tags) {
