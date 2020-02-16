@@ -37,7 +37,7 @@ Managing EUC technologies and platforms with PowerShell covers a lot of topics. 
 * [PowerCLI Tutorial: A Guide for Newbies Managing VMware](https://adamtheautomator.com/powercli-tutorial/)
 * [Administering App-V by using Windows PowerShell](https://docs.microsoft.com/en-us/windows/application-management/app-v/appv-administering-appv-with-powershell)
 * [Carl Webster's Exetensive Scripts and Utilities](https://carlwebster.com/downloads/)
-* *Please suggest any recomendations*
+* *Please suggest any other resources*
 
 # Value for value
 
