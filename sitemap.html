@@ -1,6 +1,6 @@
 ---
 layout: page
-title:
+title: Sitemap
 ---
 
 <h3>All Posts</h3>
@@ -8,15 +8,22 @@ title:
     {% for post in site.posts %}
     <tr>
         <td> {{ post.date | date: "%m/%d/%Y" }} </td>
-        <td><a href="http://alainassaf.github.io{{ post.url | remove: 'index.html' }}">{{ post.title }}</td>
+        <td><a href="{{site.url}}{{ post.url | remove: 'index.html' }}">{{ post.title }}</td>
         <td>{% for tag in post.tags %} {{ tag }} {% endfor %}</td>
     </tr>
     {% endfor %}
 </table>
 <h3>All Pages</h3>
 {% for page in site.pages %}
-{% if page.layout != 'nil' %}
+{% if page.layout != 'null' %}
 {% if page.layout != 'feed' %}
-<li><a href="http://alainassaf.github.io{{ page.url | remove: 'index.html' }}">{{ page.title }}</a></li>
-{% endif %} {% endif %}
+{% if page.name != '404.html' %}
+{% if page.name != 'feed.xml' %}
+{% if page.name != 'style.css' %}
+{% if page.name != 'main.css' %}
+{% if page.name != 'sitemap.xml' %}
+{% if page.name != 'staticman.js' %}
+{% if page.name != 'robots.txt' %}
+<li><a href="{{site.url}}{{ page.url | remove: 'index.html' }}">{{ page.title }}</a></li>
+{% endif %} {% endif %} {% endif %} {% endif %} {% endif %} {% endif %} {% endif %} {% endif %} {% endif %}
 {% endfor %}
