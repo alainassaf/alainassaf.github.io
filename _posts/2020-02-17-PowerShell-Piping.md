@@ -232,10 +232,11 @@ Hopefully this sheds some light on how to manipulate PowerShell objects using th
 
 ## Learning More
 ### Links
-*  [**Understanding PowerShell pipelines \| Microsoft Docs**](https://docs.microsoft.com/en-us/powershell/scripting/learn/understanding-the-powershell-pipeline)  
+*  [**Understanding PowerShell pipelines**](https://docs.microsoft.com/en-us/powershell/scripting/learn/understanding-the-powershell-pipeline)  
 *  [**Understanding the PowerShell Pipeline - Petri**](https://www.petri.com/understanding-the-powershell-pipeline)  
-*  [**Pipeline operator - PowerShell - SS64.com**](https://ss64.com/ps/syntax-pipeline.html)  
-###  
+*  [**Pipeline operator - PowerShell - SS64.com**](https://ss64.com/ps/syntax-pipeline.html)
+
+### Cmdlets
 *  [**Install the Active Directory PowerShell Module on Windows 10**](https://blogs.technet.microsoft.com/ashleymcglone/2016/02/26/install-the-active-directory-powershell-module-on-windows-10/)
 *  [**Get-ADGroupMember**](https://docs.microsoft.com/en-us/powershell/module/addsadministration/get-adgroupmember)
 *  [**Get-Member**](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/get-member?view=powershell-5.1)

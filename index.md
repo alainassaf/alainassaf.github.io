@@ -30,13 +30,13 @@ I have written posts that I hope have information that is just as valuable as th
 
 Managing EUC technologies and platforms with PowerShell covers a lot of topics. Here are a some resources that can help you learn more.
 
-* [**PowerShell.org/forums**](https://powershell.org/forums/) A place where you can ask your questions and talk with members of the community.
-* [**Reddit.com/r/PowerShell**](https://reddit.com/r/powershell) Another great community for you to ask your questions.
-* [**PowerShell Slack**](http://slack.poshcode.org) A very active slack for all things PowerShell.
-* [**Citrix Virtual Apps and Desktops Remote PowerShell SDK**](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops-service/sdk-api.html)
-* [**PowerCLI Tutorial: A Guide for Newbies Managing VMware**](https://adamtheautomator.com/powercli-tutorial/)
-* [**Administering App-V by using Windows PowerShell**](https://docs.microsoft.com/en-us/windows/application-management/app-v/appv-administering-appv-with-powershell)
-* [**Carl Webster's Exetensive Scripts and Utilities**](https://carlwebster.com/downloads/)
+* [**PowerShell.org/forums**](https://powershell.org/forums/){:target="_blank"} A place where you can ask your questions and talk with members of the community.
+* [**Reddit.com/r/PowerShell**](https://reddit.com/r/powershell){:target="_blank"} Another great community for you to ask your questions.
+* [**PowerShell Slack**](http://slack.poshcode.org){:target="_blank"} A very active slack for all things PowerShell.
+* [**Citrix Virtual Apps and Desktops Remote PowerShell SDK**](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops-service/sdk-api.html){:target="_blank"}
+* [**PowerCLI Tutorial: A Guide for Newbies Managing VMware**](https://adamtheautomator.com/powercli-tutorial/){:target="_blank"}
+* [**Administering App-V by using Windows PowerShell**](https://docs.microsoft.com/en-us/windows/application-management/app-v/appv-administering-appv-with-powershell){:target="_blank"}
+* [**Carl Webster's Exetensive Scripts and Utilities**](https://carlwebster.com/downloads/){:target="_blank"}
 * *Please suggest any other resources*
 
 # Value for value
