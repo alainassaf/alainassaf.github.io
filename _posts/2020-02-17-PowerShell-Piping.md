@@ -73,7 +73,7 @@ objectGUID        Property              System.Nullable`1[[System.Guid, mscorlib
 SamAccountName    Property              System.String SamAccountName {get;set;}
 SID               Property              System.Security.Principal.SecurityIdentifier SID {get;set;}
 ```
-## **PIPE (|) to Select-Object**
+## PIPE (|) to Select-Object
 ```posh
 Select-Object samaccountname
 ```
@@ -104,7 +104,7 @@ ToString       Method       string ToString()
 samaccountname NoteProperty string samaccountname=JLennon
 ```
 Notice the TypeName changed from `Microsoft.ActiveDirectory.Management.ADPrincipal` to `Selected.Microsoft.ActiveDirectory.Management.ADPrincipal`
-## **PIPE (|) to ForEach-Object**
+## PIPE (|) to ForEach-Object
 ```posh
 Foreach-Object {Get-ADUser $_.samaccountname -Properties *}
 ```
@@ -144,7 +144,7 @@ AuthenticationPolicySilo             Property              Microsoft.ActiveDirec
 #Numerous AD User Properties removed for space
 #----------------------------------------------
 ```
-## **PIPE (|) to Select-Object**
+## PIPE (|) to Select-Object
 ```posh
 Select-Object Givenname,surname,userprincipalname,description
 ```
@@ -178,7 +178,7 @@ SurName           NoteProperty string SurName=Wagner
 UserPrincipalName NoteProperty string UserPrincipalName=JLennon@PowerEUCShell.org
 ```
 The TypeName has changed again. From `Microsoft.ActiveDirectory.Management.ADUser` to `Selected.Microsoft.ActiveDirectory.Management.ADUser`
-## **PIPE (|) To Format-Table**
+## PIPE (|) To Format-Table
 ```posh
 Format-Table -auto
 ```
@@ -222,7 +222,7 @@ ClassId2e4f51ef21dd47e99d3c952918aff9cd Property   string ClassId2e4f51ef21dd47e
 groupingEntry                           Property   Microsoft.PowerShell.Commands.Internal.Format.GroupingEntry, System.Management.Automation, Version=3.0.0.0, Culture=neutral, PublicKeyTok... shapeInfo                               Property   Microsoft.PowerShell.Commands.Internal.Format.ShapeInfo, System.Management.Automation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=3...
 ```
 Sending our results, which up to now have been ActiveDirectory objects, through **Format-Table** changed them into new object types that do not have any active directory properties. Typically, this is why you leave the PowerShell format commands till the end of a pipeline so you can still manipulate results as their original object type.
-## **PIPE (|) To Out-File**
+## PIPE (|) To Out-File
 ```posh
 Out-File -FilePath c:\temp\users.txt
 ```
@@ -232,10 +232,10 @@ Hopefully this sheds some light on how to manipulate PowerShell objects using th
 
 ## Learning More
 ### Links
-*  [**Understanding PowerShell pipelines | Microsoft Docs**](https://docs.microsoft.com/en-us/powershell/scripting/learn/understanding-the-powershell-pipeline)  
+*  [**Understanding PowerShell pipelines \| Microsoft Docs**](https://docs.microsoft.com/en-us/powershell/scripting/learn/understanding-the-powershell-pipeline)  
 *  [**Understanding the PowerShell Pipeline - Petri**](https://www.petri.com/understanding-the-powershell-pipeline)  
 *  [**Pipeline operator - PowerShell - SS64.com**](https://ss64.com/ps/syntax-pipeline.html)  
-### cmdlets
+###  
 *  [**Install the Active Directory PowerShell Module on Windows 10**](https://blogs.technet.microsoft.com/ashleymcglone/2016/02/26/install-the-active-directory-powershell-module-on-windows-10/)
 *  [**Get-ADGroupMember**](https://docs.microsoft.com/en-us/powershell/module/addsadministration/get-adgroupmember)
 *  [**Get-Member**](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/get-member?view=powershell-5.1)
