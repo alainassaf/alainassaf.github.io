@@ -19,6 +19,11 @@ This is a collection of all the tags I use in my blog and links back to the page
 
 * 2020-02-17 [PowerShell Piping](/2020-02-17-PowerShell-Piping/?utm_source=blog&utm_medium=blog&utm_content=tags)
 
+<a name='Learning'></a>
+# Learning
+
+* 2020-02-17 [PowerShell Piping](/2020-02-17-PowerShell-Piping/?utm_source=blog&utm_medium=blog&utm_content=tags)
+
 <a name='Other'></a>
 # Other
 

@@ -2,7 +2,7 @@
 layout: post
 title: "PowerShell Piping"
 date: 2020-02-17
-tags: [PowerShell,Piping,ActiveDirectory,Citrix]
+tags: [PowerShell,Piping,ActiveDirectory,Citrix,Learning]
 ---
 
 Piping allows you to select objects and perform multiple actions on those objects all on one line. You use the **Pipeline** Symbol (**\|**) to send the results of one cmdlet to the next one. Let's walk through a scenario using Pipelines.
