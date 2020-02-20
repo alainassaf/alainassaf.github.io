@@ -3,11 +3,19 @@ layout: page
 title: PowerShell Resources
 ---
 
-PowerShell resources that I've collected here for reference.
+Managing EUC technologies and platforms with PowerShell covers a lot of topics. Here are a some PowerShell resources that can help you learn more.
 
 ## Blogs
 
 * [**Planet PowerShell**](https://www.planetpowershell.com/){:target="_blank"} - PowerShell Blog aggregator
 * [**RTP - PUG**](https://rtpsug.com/){:target="_blank"} - Reseach Triangle PowerShell User Group Website
+* [**Carl Webster's Exetensive Scripts and Utilities**](https://carlwebster.com/downloads/){:target="_blank"}
 
-## More to come
+## Forums
+
+* [**PowerShell.org/forums**](https://powershell.org/forums/){:target="_blank"} A place where you can ask your questions and talk with members of the community.
+* [**Reddit.com/r/PowerShell**](https://reddit.com/r/powershell){:target="_blank"} Another great community for you to ask your questions.
+
+## Slack Channels
+
+* [**PowerShell Slack**](http://slack.poshcode.org){:target="_blank"} A very active slack for all things PowerShell.
