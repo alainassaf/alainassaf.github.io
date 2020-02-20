@@ -7,6 +7,7 @@ PowerShell resources that I've collected here for reference.
 
 ## Blogs
 
-* [Planet PowerShell](https://www.planetpowershell.com/)
+* [**Planet PowerShell**](https://www.planetpowershell.com/) - PowerShell Blog aggregator
+* [**RTP - PUG **](https://rtpsug.com/) - Reseach Triangle PowerShell User Group Website
 
-## RegEx
+## More to come
