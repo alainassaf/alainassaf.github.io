@@ -6,7 +6,14 @@ tags: [Modules,Snapins,Learning]
 ---
 
 
-## Where’s that module or Snapin?
+When you have serveral installed Modules and SnapIns, you may have different Modules installed in different locations. This is a simple way to determine where a Module or SnapIn is installed.
+
+# Index
+
+* TOC
+{:toc}
+
+## Where’s that Snapin?
 
 You can find the install location of a PowerShell SnapIn by getting all the properties of the Snapin.
 
@@ -27,6 +34,8 @@ Vendor                      : Citrix Systems, Inc.
 LogPipelineExecutionDetails : False
 ```
 The **ApplicationBase** is the working directory and the **ModuleName** points to the actual Module (in this case a dll).
+
+## Where’s that Module?
 
 Similarly, you grab all the properties of module to find the location:
 ```posh
