@@ -23,6 +23,12 @@ This is a collection of all the tags I use in my blog and links back to the page
 # Learning
 
 * 2020-02-17 [PowerShell Piping](/2020-02-17-PowerShell-Piping/?utm_source=blog&utm_medium=blog&utm_content=tags)
+* 2020-02-19 [Finding Module/Snapin Install Location](/2020-02-19-FindModule/?utm_source=blog&utm_medium=blog&utm_content=tags)
+
+<a name='Modules'></a>
+# Modules
+
+* 2020-02-19 [Finding Module/Snapin Install Location](/2020-02-19-FindModule/?utm_source=blog&utm_medium=blog&utm_content=tags)
 
 <a name='Other'></a>
 # Other
@@ -34,7 +40,7 @@ This is a collection of all the tags I use in my blog and links back to the page
 
 * 2020-02-17 [PowerShell Piping](/2020-02-17-PowerShell-Piping/?utm_source=blog&utm_medium=blog&utm_content=tags)
 
-<a name='PowerShell'></a>
-# PowerShell
+<a name='Snapins'></a>
+# Snapins
 
-* 2020-02-17 [PowerShell Piping](/2020-02-17-PowerShell-Piping/?utm_source=blog&utm_medium=blog&utm_content=tags)
+* 2020-02-19 [Finding Module/Snapin Install Location](/2020-02-19-FindModule/?utm_source=blog&utm_medium=blog&utm_content=tags)
