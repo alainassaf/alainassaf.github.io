@@ -19,3 +19,8 @@ Managing EUC technologies and platforms with PowerShell covers a lot of topics. 
 ## Slack Channels
 
 * [**PowerShell Slack**](http://slack.poshcode.org){:target="_blank"} A very active slack for all things PowerShell.
+
+## Modules
+
+* [**PSWriteHTML**](https://evotec.xyz/emailimo-merged-into-pswritehtml-ie-support-and-no-dependencies/){:target="_blank"} A fantastic module to create HTML formatted emails and reports
+* [**Statusimo**](https://evotec.xyz/meet-statusimo-powershell-generated-status-page/){:target="_blank"} PowerShell generated Status Page
