@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Powershell: Invoke-RestMethod"
+title: "PowerShell: Invoke-RestMethod"
 date: 2020-04-22
 tags: [web,learning,splatting,validateset,hash tables]
 bigimg: 
@@ -14,17 +14,17 @@ bigimg:
 * TOC
 {:toc}
 
-# Senario
-I want to write a function that will query an image site and download a picture so I can insert that picture into a blog post. After watching a local PowerShell User Group presentation on using [**Invoke-RestMethod**](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/invoke-restmethod?view=powershell-7), I decided to give it a try.
+# Scenario
+I want to write a function that will query an image site and download a picture so I can insert it into a blog post. After watching a local PowerShell User Group presentation on using [**Invoke-RestMethod**](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/invoke-restmethod?view=powershell-7), I decided to give it a try.
 
 # API Parameters
 **Invoke-RestMethod** is a PowerShell utility specifically for quering web sites that use Representational State Transfer ([**REST**](https://en.wikipedia.org/wiki/Representational_state_transfer)) web services. It was introduced in PS 3.0 and is present through subsequent versions, including PS 7.0.
-In order to use this cmdlet, I needed a web site that provded a RESTful API. I chose [**Pixabay**](https://pixabay.com/) because it has an easy to understand API and provides free and royalty free stock photos and videos. Let's take a look at the API parameters.
+In order to use this cmdlet, I needed a web site that provded a RESTful API. I chose [**Pixabay**](https://pixabay.com/) because it has an easy to understand API and provides free and royalty free stock photos and videos. Let us take a look at the API parameters.
 
 | Parameter | Type | Description |
 | --------- | ----------- | --------|
-| key (required) | String | API Key, Provided after you create an account |
-| q | String | 	A URL encoded search term. If omitted, all images are returned. This value may not exceed 100 characters. |
+| key (required) | String | API Key, provided after you create an account |
+| q | String |  A URL encoded search term. If omitted, all images are returned. This value may not exceed 100 characters. |
 | lang | String | [Language code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) of the language to be searched in. |
 | id | String | Retrieve individual images by ID. |
 | image_type |  String | Filter results by image type: "all", "photo", "illustration", or "vector". |
@@ -42,10 +42,10 @@ In order to use this cmdlet, I needed a web site that provded a RESTful API. I c
 | pretty | Boolean | Indent JSON output. This option should not be used in production. "true" or "false" |
 
 # Function Parameters
-Now that I know the API parameters, I can decide what parameters to pass to my function. I need to pass a query for the type of images. I would also like to pick the category, a color (optional), and the API Key that I got when I created an account. Here's my function Param block:
+Now that I know the API parameters, I can decide what parameters to pass to my function. I need to pass a query for the type of images. I would also like to pick the category, a color (optional), and the API Key that I got when I created an account. Here is my function Param block:
 ```posh
 param (
-        [parameter(Position = 0, Mandatory = $True )] 	
+        [parameter(Position = 0, Mandatory = $True )]   
         [ValidateNotNullOrEmpty()]
         [string]$query,
 
@@ -124,9 +124,9 @@ $splat = @{
     Body   = $Body
 }
 ```
-The reason I want to use splatting is that both **invoke-restmethod** and the Pixabay API have a lot of parameters. It also makes code easier to read and modify in the future. I'm going to first create a `$body` [**Hash Table**](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_hash_tables?view=powershell-7). The `$body` may have the additional `$color` parameter if one is present. We assign the *values* to the *keys* in the *hash table* using the API parameters for the *Keys* and the function parameters for the *Values*. Some of the *Values* are preset based on the API. I'm presetting *lang*, *image_type*, *orientation*, and *safesearch*. Once the values of the `$body` are set, I create a `$splat` *hash table* that consists of the *URI* (API URL), the *Method* (the method used for the web request, the most common ones being *get* and *post*), and the *Body* which comes from the `$body` *hash table*.
+The reason I want to use splatting is that both **invoke-restmethod** and the Pixabay API have a lot of parameters. It also makes code easier to read and modify in the future. I am going to first create a `$body` [**Hash Table**](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_hash_tables?view=powershell-7). The `$body` may have the additional `$color` parameter if one is present. We assign the *values* to the *keys* in the *hash table* using the API parameters for the *Keys* and the function parameters for the *Values*. Some of the *Values* are preset based on the API. I am presetting *lang*, *image_type*, *orientation*, and *safesearch*. Once the values of the `$body` are set, I create a `$splat` *hash table* that consists of the *URI* (API URL), the *Method* (the method used for the web request, the most common ones being *get* and *post*), and the *Body* which comes from the `$body` *hash table*.
 
-# Gettings Results
+# Getting Results
 Now we can use the the *splats* to query the Pixabay API. We use a *Try/Catch* command to have an error check on the **Invoke-RestMethod**.
 ```posh
 try {
@@ -136,7 +136,7 @@ try {
     break
 }
 ```
-The rest of the function takes the results, randomy picks from the results (Pixabay returns 20 images as a default), and uses an Invoke-WebRequest to download the image.
+The rest of the function takes the results, randomy picks from the results (Pixabay returns 20 images as a default) and uses an Invoke-WebRequest to download the image.
 ```posh
 if ($pixabay_query.totalHits -eq 0) {
     Write-Warning "No query results"
@@ -153,8 +153,8 @@ if ($pixabay_query.totalHits -eq 0) {
 
 # The entire function...
 {% gist 0ba2d8b58163a11410b3159008e3381f %}
-# Conculsion
-This function worked exactly as I wanted. I used it to retrieve the picture at the top of this post. I hope you've seen something you can use in the future. Please leave a comment if you have any questions.
+# Conclusion
+This function worked exactly as I wanted. I used it to retrieve the picture at the top of this post. I hope you have seen something you can use in the future. Please leave a comment if you have any questions.
 
 # Learning More
 * [**Getting started with API's with Jonathan Moss - YouTube**](https://youtu.be/ZbpbissNlCs)
