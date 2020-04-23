@@ -3,7 +3,7 @@ layout: page
 title: PowerShell Resources
 ---
 
-Managing EUC technologies and platforms with PowerShell covers a lot of topics. Here are a some PowerShell resources that can help you learn more.
+Managing EUC technologies and platforms with PowerShell covers a lot of topics. Here are a some PowerShell resources that can help you learn and do more.
 
 ## Blogs
 
@@ -18,7 +18,7 @@ Managing EUC technologies and platforms with PowerShell covers a lot of topics. 
 
 ## Slack Channels
 
-* [**PowerShell Slack**](http://slack.poshcode.org){:target="_blank"} A very active slack for all things PowerShell.
+* [**PowerShell Slack**](http://slack.poshcode.org){:target="_blank"} A very active Slack for all things PowerShell.
 
 ## Modules
 
