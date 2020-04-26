@@ -196,12 +196,14 @@ defaults:
       layout: "post"
       comments: true  # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
+      sitemap: true
   -
     scope:
       path: "" # all files
     values:
       layout: "page"
       show-avatar: true
+      sitemap: true
   -
     scope:
       path: "assets/**/*.css"
