@@ -26,13 +26,14 @@ You can manage all aspects of a Citrix Site with the Citrix Broker SDK PowerShel
 * To use Citrix PowerShell cmdlets in scripts, you will have to set your [**Execution Policy**](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy) to something other than Restricted
 
 # Install Citrix PSSnapIns (Studio)
-When you install Citrix Studio, all the PowerShell cmdlets for managing Virtual Apps and Desktops are installed as well. You can see the cmdlets in action within the Studio console. Studio generates the equivalent PowerShell commands for GUI actions in the PowerShell tab. You can review these by clicking on your Citrix Site. 
+When you install Citrix Studio, all the PowerShell cmdlets for managing Virtual Apps and Desktops are installed as well. You can see the cmdlets in action within the Studio console. Studio generates the equivalent PowerShell commands for GUI actions in the PowerShell tab. You can review these by clicking on your Citrix Site.<br>
 ![Citrix Studio](/img/brokercmdlets1.png "Citrix Studio")
 
 Then click on the PowerShell tab to see the commands.
 ![PowerShell Tab](/img/brokercmdlets2.png "PowerShell Tab")
 
 You can click on the **Launch PowerShell** button the Citrix Studio to launch an elevated PowerShell Prompt with the Citrix cmdlets loaded.
+![Studio Shell](/img/brokercmdlets4.png "Studio Shell")
 
 If you open a PowerShell prompt on a system where Citrix Studio is installed (this most often is the Delivery Controller) you will have to load the Citrix Cmdlets by typing this: `Add-PSSnapin Citrix.ADIdentity.Admin.V2`. This will install the cmdlets for Citrix Virtual Apps and Desktops version 7.x and newer. Version 1 of the cmdlets are for XenDesktop 5.
 
