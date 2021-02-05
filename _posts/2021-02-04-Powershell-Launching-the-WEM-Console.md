@@ -64,7 +64,7 @@ Now, given a `$WEMServer`, the `Test-NetConnection` cmdlet will ensure that it c
 
 Using my new script, I was able to create different shortcuts that point to the WEM databases my team manages. 
 
-![](/img/WEMSCprop.png "Examples of WEM shortcuts")
+![](/img/WEMSCProp.png "WEM shortcut properties")
 
 In the Target Field, I put `C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe` -Noninteractive -NoProfile -File "open-WemConsole.ps1" -WEMServer "PRODWEMSERVER"`
 
