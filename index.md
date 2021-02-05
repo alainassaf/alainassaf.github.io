@@ -14,7 +14,7 @@ Here are my recent posts...
 # Doing stuff with Citrix
 These posts deal with managing/engineering a Citrix environment using PowerShell
 
-* More to come
+* [**Launching the WEM Console**](2021-02-04-Powershell-Launching-the-WEM-Console)
 
 # More Content
 I have written posts that I hope have information that is just as valuable as those featured on the front page. Please use these links to access the rest of my content.
@@ -30,6 +30,6 @@ Managing EUC technologies and platforms with PowerShell covers a lot of topics. 
 * *Please suggest any other resources*
 
 # Value for value
-If you feel you are getting value from this blog, please help by becoming a [**supporter**](https://www.paypal.me/PowerEUCShell){:target="_blank"}.
+If you feel you are getting value from this blog, please help by becoming a [**supporter**](https://www.paypal.com/donate?hosted_button_id=73HNLGA2SGLLU){:target="_blank"}.
 
 Please report any issues with this site as a [**GitHub Issue**](https://github.com/alainassaf/alainassaf.github.io/issues).

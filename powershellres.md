@@ -24,3 +24,6 @@ Managing EUC technologies and platforms with PowerShell covers a lot of topics. 
 
 * [**PSWriteHTML**](https://evotec.xyz/emailimo-merged-into-pswritehtml-ie-support-and-no-dependencies/){:target="_blank"} A fantastic module to create HTML formatted emails and reports
 * [**Statusimo**](https://evotec.xyz/meet-statusimo-powershell-generated-status-page/){:target="_blank"} PowerShell generated Status Page
+
+### Value for value
+If you feel you are getting value from this blog, please help by becoming a [**supporter**](https://www.paypal.com/donate?hosted_button_id=73HNLGA2SGLLU){:target="_blank"}.
