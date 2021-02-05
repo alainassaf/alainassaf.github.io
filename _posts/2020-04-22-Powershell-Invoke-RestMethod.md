@@ -136,7 +136,7 @@ try {
     break
 }
 ```
-The rest of the function takes the results, randomy picks from the results (Pixabay returns 20 images as a default) and uses an Invoke-WebRequest to download the image.
+The rest of the function takes the results, randomly picks from the results (Pixabay returns 20 images as a default) and uses an Invoke-WebRequest to download the image.
 ```posh
 if ($pixabay_query.totalHits -eq 0) {
     Write-Warning "No query results"
@@ -165,6 +165,8 @@ This function worked exactly as I wanted. I used it to retrieve the picture at t
 * [**Splatting**](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_splatting?view=powershell-7)
 * [**Hash Tables**](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_hash_tables?view=powershell-7)
 
-*Thanks for Reading,*
+### Value for Value  
+If you received any value from reading this post, please help by becoming a [**supporter**](https://www.paypal.com/donate?hosted_button_id=73HNLGA2SGLLU).
 
+*Thanks for Reading,*  
 *Alain Assaf*

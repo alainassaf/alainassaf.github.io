@@ -16,7 +16,7 @@ Citrix has provided PowerShell management of its various products for years. In 
 * TOC
 {:toc}
 
-# Senario
+# Scenario
 I have many, many published applications to manage. I have to make changes monthly (sometimes weekly) to existing applications, create new applications, and provide testing applications for various application and business groups. I want to use Get-BrokerApplication to generate a quick report to show me the 'types' of applications I give me an overview of application changes from month-to-month.
 
 # Install Citrix PSSnapIns (Studio)

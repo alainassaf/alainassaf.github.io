@@ -46,6 +46,11 @@ This is a collection of all the tags I use in my blog and links back to the page
 
 * 2020-02-17 [PowerShell Piping](/2020-02-17-PowerShell-Piping/?utm_source=blog&utm_medium=blog&utm_content=tags)
 
+<a name='PowerShell'></a>
+# PowerShell
+
+* 2021-02-04 [PowerShell: Launching the WEM Console](/2021-02-04-Powershell-Launching-the-WEM-Console/?utm_source=blog&utm_medium=blog&utm_content=tags)
+
 <a name='Snapins'></a>
 # Snapins
 
@@ -65,3 +70,8 @@ This is a collection of all the tags I use in my blog and links back to the page
 # web
 
 * 2020-04-22 [PowerShell: Invoke-RestMethod](/2020-04-22-Powershell-Invoke-RestMethod/?utm_source=blog&utm_medium=blog&utm_content=tags)
+
+<a name='WEM'></a>
+# WEM
+
+* 2021-02-04 [PowerShell: Launching the WEM Console](/2021-02-04-Powershell-Launching-the-WEM-Console/?utm_source=blog&utm_medium=blog&utm_content=tags)
