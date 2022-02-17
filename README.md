@@ -4,6 +4,8 @@ This repo contains the content of my website and blog.
 
 *Copyright (c) 2022 Alain Assaf All Rights Reserved*
 
+Any views expressed here are my own and in no way reflect on my current employer, organziations, businesses, or services I interact with.
+
 # Blog Layout
 
 Much of the layout and ideas on navigation for my blog came from [**Kevin Marquette's blog**](https://powershellexplained.com/). I recommend checking his blog out. It is a terrific resource for learning PowerShell.
