@@ -2,7 +2,7 @@
 
 This repo contains the content of my website and blog.
 
-*Copyright (c) 2020 Alain Assaf All Rights Reserved*
+*Copyright (c) 2022 Alain Assaf All Rights Reserved*
 
 # Blog Layout
 
