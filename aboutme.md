@@ -6,7 +6,7 @@ title: About me
 ### Hello,
 
 
-I'm a technology professional who's worked in IT for over 20 years. For much of that time, I've focused on virtualization platforms from Citrix, VMware, and Microsoft and  related technologies and tools to automate, monitor, and manage the end user experience. I've worked in many diverse environments such as architecture, small business, manufacturing/distribution, medical (hospital and medical devices), government (federal), and industrial (chemical and electronics) all with an IT focus.
+I'm a technology professional who's worked in IT for over 20 years. For much of that time, I've focused on virtualization platforms from **Citrix**, **VMware**, and **Microsoft** and  related technologies and tools to automate, monitor, and manage the end user experience. I've worked in many diverse environments such as architecture, small business, manufacturing/distribution, medical (hospital and medical devices), government (federal), and industrial (chemical and electronics) all with an IT focus.
 
 I now work in North Carolina for the second largest credit union in the USA.
 
@@ -25,4 +25,5 @@ I can be reached directly at: <alainassaf@outlook.com>
 If you feel you are getting value from this blog, please help by becoming a [**supporter**](https://www.paypal.com/donate?hosted_button_id=73HNLGA2SGLLU){:target="_blank"}.
 
 Thanks for reading,
+
 Alain Assaf
