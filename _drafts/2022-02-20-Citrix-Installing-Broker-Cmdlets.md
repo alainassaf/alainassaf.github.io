@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Citrix: Installing Broker Cmdlets"
-date: 2020-05-03
+title: "Installing Citrix Broker PowerShell Cmdlets"
+date: 2022-02-20
 tags: [Citrix,PowerShell]
 bigimg:
-    - "/img/2020-05-03-Installing-Broker-Cmdlets.jpg" : "Pixabay"
+    - "/img/2022-02-20-Installing-Broker-Cmdlets.jpg" : "Pixabay"
 ---
 
 Citrix has provided PowerShell management of its various products for years. In this post we will review the cmdlets and see how to install them.<br>
@@ -18,7 +18,7 @@ Citrix has provided PowerShell management of its various products for years. In 
 {:toc}
 
 # Intro
-You can manage all aspects of a Citrix Site with the Citrix Broker SDK PowerShell cmdlets. This includes Machine Catalogs, Delivery Groups, Virtual Desktops, Applications, Database connections, user Sessions, and Tags.  
+You can manage all aspects of a Citrix Site with the Citrix Broker SDK PowerShell cmdlets. This includes Machine Catalogs, Delivery Groups, Virtual Desktops, Applications, Database connections, user Sessions, and Tags.
 
 # Prerequisites
 * PowerShell 3.0
