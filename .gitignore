@@ -13,3 +13,4 @@ CHANGELOG.md
 Dockerfile
 *.dockerfile
 vendor
+Gemfile.lock.backup
