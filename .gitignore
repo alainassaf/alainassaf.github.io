@@ -11,4 +11,4 @@ CHANGELOG.md
 
 # Docker
 Dockerfile
-.dockerfile
+*.dockerfile
