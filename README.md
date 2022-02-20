@@ -32,3 +32,9 @@ If this error occurs:
  *"Bundler: You must use Bundler 2 or greater with this lockfile"*
 
  delete the Gemfile.lock and redo the `docker-compose up -d` command. This will re-create the Gemfile.lock file.
+
+---
+ ### Container Usage Sources
+* https://takacsmark.com/how-to-set-up-docker-container-for-your-github-pages-jekyll-site/
+* https://github.com/takacsmark/takacsmark.github.io/blob/master/docker-compose.yml
+* https://www.youtube.com/watch?v=6UAf8b_2juk&t=3s
