@@ -219,11 +219,10 @@ exclude:
   - CNAME
   - Dockerfile
   - Gemfile
-  - Gemfile.lock
   - LICENSE
   - README.md
   - Vagrantfile
-  - vendor
+  - vendor/
 
 # prose.io config
 prose:
