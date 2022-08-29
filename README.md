@@ -12,29 +12,26 @@ Much of the layout and ideas on navigation for my blog came from [**Kevin Marque
 
 # Theme Template is Beautiful Jekyll
 
-> *Copyright (c) 2016 [Dean Attali](http://deanattali.com). Licensed under the MIT license.*
+> *Copyright (c) 2022 [Dean Attali](http://deanattali.com). Licensed under the MIT license.*
 
 **Beautiful Jekyll** is a ready-to-use template to help you create an awesome website quickly. Perfect for personal blogs or simple project websites.  [Check out a demo](http://deanattali.com/beautiful-jekyll) of what you'll get after just two minutes.  You can also look at [Dean Attail's personal website](http://deanattali.com) to see it in use, or see examples of websites other people created using this theme [here](https://github.com/daattali/beautiful-jekyll#showcased-users-success-stories).
 
-# Container Usage
-To start the blog in development mode use the following command:
-```termnial
-docker-compose up -d
-```
-This will start up a local Jekyll server (you must have Docker desktop installed), build the site, and serve it on http://localhost:4000.
+# Blog Creation
+When I had to redo my local blog development space, I followed a great video by [Bill Raymond](https://www.youtube.com/c/WilliamRaymondPM/about) on YouTube, [Develop Jekyll websites in a container (including GitHub Pages)](https://youtu.be/owHfKAbJ6_M).
 
-To follow the logs use the following command:
-```terminal
-docker-compose logs -f
-```
-If this error occurs:
+This video walks you step-by-step in creating a local docker container and using VSCode to edit a blog.
 
- *"Bundler: You must use Bundler 2 or greater with this lockfile"*
+Once the framework was in place, I downloaded the latest release of Beautiful Jekyll and customized it to my needs.
 
- delete the Gemfile.lock and redo the `docker-compose up -d` command. This will re-create the Gemfile.lock file.
+# Copyright Notice
 
----
- ### Container Usage Sources
-* https://takacsmark.com/how-to-set-up-docker-container-for-your-github-pages-jekyll-site/
-* https://github.com/takacsmark/takacsmark.github.io/blob/master/docker-compose.yml
-* https://www.youtube.com/watch?v=6UAf8b_2juk&t=3s
+*Copyright ©2020-2022 [Alain Assaf](https://alainassaf.com)
+
+The entire alainassaf.com Web site is Copyright ©2020-2022 by Alain Assaf. All Rights Reserved. The alainassaf.com site may not be copied or duplicated in whole or part by any means without express prior agreement in writing or unless specifically noted on the site.
+
+Some photographs or documents contained on the site may be the copyrighted property of others; acknowledgement of those copyrights is hereby given. All such material is used with the permission of the owner.
+
+# Privacy Notice
+
+The privacy notice is [here](https://alainassaf.com/privacy).
+This privacy notice was sourced from [erresen.github.io](https://erresen.github.io/privacy/).

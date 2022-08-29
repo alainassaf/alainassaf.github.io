@@ -1,18 +1,18 @@
 ---
 layout: page
-title: PowerEUCShell
-subtitle: By Alain Assaf
+title: Alain Assaf
+subtitle: Managing virtualization technologies
 ---
 
-Welcome to PowerEUCShell, my Github pages site that focuses on learning PowerShell and how to leverage it to manage EUC technologies. 
+Welcome to my blog, a site that focuses on learning PowerShell and how to leverage it to manage virtualization technologies. 
 
 # Recent Posts
-Here are my recent posts...
+Here are some recent posts...
 
 {% include recent-posts.md %}* [**More**](sitemap/?utm_source=blog&utm_medium=blog&utm_content=recent)
 
 # Doing stuff with Citrix
-These posts deal with managing/engineering a Citrix environment using PowerShell
+These posts deal with managing/engineering/architecting a Citrix environment using PowerShell
 
 * [**Launching the WEM Console**](2021-02-04-Powershell-Launching-the-WEM-Console)
 

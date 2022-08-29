@@ -2,16 +2,21 @@
 layout: post
 title: "Finding Module/Snapin Install Location"
 date: 2020-02-19
+readtime: true
 tags: [Modules,Snapins,Learning]
+cover-img:
+    - "/assets/img/FindModule/2020-02-19-FindModule.jpg" : "Pixabay"
 ---
 
+<!--more-->
 
-When you have serveral installed Modules and SnapIns, you may have different Modules installed in different locations. This is a simple way to determine where a Module or SnapIn is installed.
-
-# Index
+# Contents
 
 * TOC
 {:toc}
+
+# Scenario
+When you have serveral installed Modules and SnapIns, you may have different Modules installed in different locations. This is a simple way to determine where a Module or SnapIn is installed.
 
 ## Where’s that Snapin?
 

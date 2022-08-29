@@ -7,10 +7,8 @@ _site
 .DS_Store
 Thumbs.db
 ehthumbs.db
-CHANGELOG.md
 
-# Docker
-Dockerfile
-*.dockerfile
-vendor
-Gemfile.lock.backup
+# Jekyll
+.jekyll-metadata
+Gemfile.lock
+.jekyll-metadata
