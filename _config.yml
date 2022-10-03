@@ -235,7 +235,7 @@ giscus:
   repository: "alainassaf/alainassaf.github.io" # GitHub username/repository eg. "daattali/beautiful-jekyll"
   repository-id: "MDEwOlJlcG9zaXRvcnkyMzg0NTk2ODM=" # ID of your repository, retrieve this info from https://giscus.app
   category: "Site Comments" # Category name of your GitHub Discussion posts
-  category-id: "DIC_kwDODjabI84CRfKh" # ID of your category, retrieve this info from https://giscus.app
+  category-id: "DIC_kwDODjabI84CRw9F" # ID of your category, retrieve this info from https://giscus.app
   mapping: pathname
   reactions-enabled: 1
   emit-metadata: 0
