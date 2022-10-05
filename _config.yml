@@ -175,10 +175,11 @@ footer-hover-col: "#0085A1"
 gtag: "G-5C38G86WDQ"
 
 # Fill in your Google Analytics ID to track your website using Google Analytics
-google_analytics: "335545553"
+#google_analytics: "335545553"
+google_analytics: "G-5C38G86WDQ"
 
 # Google Tag Manager ID
-#gtm: ""
+gtm: "G-5C38G86WDQ"
 
 # Matomo (aka Piwik) Web statistics
 # Uncomment the following section to enable Matomo. The opt-out parameter controls
