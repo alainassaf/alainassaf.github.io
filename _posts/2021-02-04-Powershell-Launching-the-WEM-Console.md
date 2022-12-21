@@ -5,8 +5,10 @@ subtitle: Open the WEM Console and connect to multiple WEM databases.
 date: 2021-02-04
 readtime: true
 tags: [PowerShell,WEM]
-cover-img:
-    - "/assets/img/PowerShell-Launching the WEM Console/2021-02-04-Launching the WEM Console.jpg" : "Pixabay"
+readtime: true
+cover-img: ["/assets/img/PowerShell-Launching-the-WEM-Console/2021-02-04-Launching-the-WEM-Console.jpg" : "Pixabay"]
+thumbnail-img: /assets/img/PowerShell-Launching-the-WEM Console/2021-02-04-Launching-the-WEM-Console.jpg
+share-img: /assets/img/PowerShell-Launching-the-WEM-Console/2021-02-04-Launching-the-WEM-Console.jpg
 ---
 
 <!--more-->
@@ -21,7 +23,7 @@ cover-img:
 You use the WEM Console to manage configuration sets that contain policies, actions, and performance settings. It connects to a WEM Server which reads and writes changes to the WEM database where the Configuration Set is stored.
 Connecting to your WEM server is done by clicking *Connect* in the ribbon and typing in an Infrastructure Server name.
 
-[![WEM Console Connection](/assets/img/wem-new-infra-service-connection.png "WEM Console Connection")](https://docs.citrix.com/en-us/workspace-environment-management/current-release/install-and-configure/admin-console.html#create-an-infrastructure-server-connection){:target="_blank"}  
+[![WEM Console Connection](/assets/img/PowerShell-Launching-the-WEM-Console/wem-new-infra-service-connection.png "WEM Console Connection")](https://docs.citrix.com/en-us/workspace-environment-management/current-release/install-and-configure/admin-console.html#create-an-infrastructure-server-connection){:target="_blank"}  
 
 If you manage different WEM environments with separate databases, you must go through this *Connection* dialog each time. I wanted to write a **PowerShell** script that would allow me to launch the console and have it already connected to the envrionment I wanted, and I also wanted a simple way to create desktop shortcuts to open multiple consoles at once.
 

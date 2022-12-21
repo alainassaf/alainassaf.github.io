@@ -1,3 +1,4 @@
+* 2022-12-21 [**Citrix: Get-BrokerApplication**](/2022-12-21-Powershell-Get-BrokerApplication/?utm_source=blog&utm_medium=blog&utm_content=recent)
 * 2022-08-22 [**Powershell: Citrix Hypervisor Count Function**](/2022-08-22-PowerShell-Citrix-Hypervisor-Count-Function/?utm_source=blog&utm_medium=blog&utm_content=recent)
 * 2021-02-04 [**PowerShell: Launching the WEM Console**](/2021-02-04-Powershell-Launching-the-WEM-Console/?utm_source=blog&utm_medium=blog&utm_content=recent)
 * 2020-04-22 [**PowerShell: Invoke-RestMethod**](/2020-04-22-Powershell-Invoke-RestMethod/?utm_source=blog&utm_medium=blog&utm_content=recent)

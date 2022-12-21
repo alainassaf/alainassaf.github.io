@@ -15,6 +15,7 @@ Here are some recent posts...
 These posts deal with managing/engineering/architecting a Citrix environment using PowerShell
 
 * [**Launching the WEM Console**](2021-02-04-Powershell-Launching-the-WEM-Console)
+* [**Get-BrokerApplication**](2022-12-21-Powershell-Get-BrokerApplication)
 
 # More Content
 I have written posts that I hope have information that is just as valuable as those featured on the front page. Please use these links to access the rest of my content.
