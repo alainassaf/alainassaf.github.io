@@ -79,7 +79,7 @@ Putting all these queries together can in a script can give you simple summary r
 ![Application Report](/assets/img/Powershell-Get-BrokerApplication/gbm4.png "Application Report")
 
 # Conculsion
-In this post, we showed how to install the Citsix PowerShell cmdlets and use `Get-BrokerApplication` to create a simple report of your Citrix applications. Running this script every month allows us to track changes over time. 
+In this post, we showed how to install the Citrix PowerShell cmdlets and use `Get-BrokerApplication` to create a simple report of your Citrix applications. Running this script every month allows us to track changes over time. 
 
 ![Report Table](/assets/img/Powershell-Get-BrokerApplication/gbm5.png "Report Table")
 
