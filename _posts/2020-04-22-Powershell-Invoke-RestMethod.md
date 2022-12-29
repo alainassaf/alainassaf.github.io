@@ -3,7 +3,7 @@ layout: post
 title: "PowerShell: Invoke-RestMethod"
 date: 2020-04-22
 readtime: true
-tags: [web,learning,splatting,validateset,hash tables]
+tags: [PowerShell,web,learning,splatting,validateset,hash tables]
 cover-img: 
     - "/assets/img/Powershell-Invoke-RestMethod/2020-04-22-Powershell-Invoke-RestMethod.jpg" : "Pixabay"
 ---

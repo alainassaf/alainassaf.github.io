@@ -2,7 +2,7 @@
 layout: post
 title: "Powershell: Citrix Hypervisor Count Function"
 date: 2022-08-22
-tags: [Citrix,Hypervisor,PowerShell]
+tags: [PowerShell,Citrix,Hypervisor]
 readtime: true
 cover-img: ["/assets/img/PowerShell-Citrix-Hypervisor-Count-Function/abacus.jpg" : "Pixabay"]
 thumbnail-img: /assets/img/PowerShell-Citrix-Hypervisor-Count-Function/abacus.jpg

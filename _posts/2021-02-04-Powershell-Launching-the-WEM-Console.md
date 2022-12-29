@@ -4,7 +4,7 @@ title: "PowerShell: Launching the WEM Console"
 subtitle: Open the WEM Console and connect to multiple WEM databases.
 date: 2021-02-04
 readtime: true
-tags: [PowerShell,WEM]
+tags: [PowerShell,Citrix,WEM]
 readtime: true
 cover-img: ["/assets/img/PowerShell-Launching-the-WEM-Console/2021-02-04-Launching-the-WEM-Console.jpg" : "Pixabay"]
 thumbnail-img: /assets/img/PowerShell-Launching-the-WEM Console/2021-02-04-Launching-the-WEM-Console.jpg
