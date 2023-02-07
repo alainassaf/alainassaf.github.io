@@ -3,7 +3,7 @@ layout: post
 title: Documenting Citrix Policies
 subtitle: With PowerShell
 date: 2010-05-12
-tags: [Citrix, Documentation, featured, PowerShell, Scripting, XenApp]
+tags: [Citrix, Documentation, PowerShell, Scripting, XenApp]
 ---
 <em><strong>UPDATE: I had updated this script (updated link in the comments below), but had not updated the post with the new script. This has been done.</strong></em>
 

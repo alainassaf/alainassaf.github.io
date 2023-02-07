@@ -4,7 +4,7 @@ title: Solarwinds Advanced Subnet Calculator
 subtitle: Application woes
 date: 2015-09-25
 readtime: true
-tags: [Administration, Application, Citrix, Aside]
+tags: [Administration, Application, Citrix]
 thumbnail-img: /assets/img/solarwinds-advanced-subnet-calculator/bg_adv_subnet_calc_top.gif
 share-img: /assets/img/solarwinds-advanced-subnet-calculator/bg_adv_subnet_calc_top.gif
 ---

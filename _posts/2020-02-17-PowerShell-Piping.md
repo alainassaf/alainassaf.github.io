@@ -3,7 +3,7 @@ layout: post
 title: "PowerShell Piping"
 date: 2020-02-17
 readtime: true
-tags: [PowerShell,Piping,ActiveDirectory,Learning]
+tags: [PowerShell,Piping,Active Directory,Learning]
 cover-img: 
     - "/assets/img/PowerShell-Piping/2020-02-17-PowerShell-Piping.jpg" : "Pixabay"
 ---

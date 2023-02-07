@@ -2,7 +2,7 @@
 layout: post
 title: Quickly install/update XenCenter
 date: 2011-07-04
-tags: [Administration, Citrix, LabInABox, Aside, XenCenter, XenServer, XenServer 5.6 SP2]
+tags: [Administration, Citrix, LabInABox, XenCenter, XenServer, XenServer 5.6 SP2]
 ---
 I finally upgraded my home lab to XenServer 5.6 SP2.  At the time I failed to grab an updated version of XenCenter.  If you ever need to install XenCenter and do not want to wait for an internet download, you can type the address of your XenServer into your web browser and download it.
 
