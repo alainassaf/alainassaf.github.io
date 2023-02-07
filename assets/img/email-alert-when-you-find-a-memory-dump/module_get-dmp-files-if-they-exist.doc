@@ -1,0 +1,456 @@
+<?xml version="1.0"?>
+<!-- RES WISDOM Building Blocks -->
+<!-- Created by Alain Assaf on 3/24/2010 12:23:37 PM -->
+<!-- http://wagthereal.wordpress.com -->
+<reswisdom>
+	<buildingblock>
+		<projects/>
+		<modules>
+			<module>
+				<properties>
+					<guid>{A3C681C0-C4C2-4FCD-808E-AB46482EF386}</guid>
+					<name>Get DMP files if they exist</name>
+					<enabled>yes</enabled>
+					<description>Checks for DMP files in %WINDIR% and %WINDIR%\Minidump.  Sends e-mail if any found and copies them to the share.</description>
+					<folderpath>
+						<folder>
+							<name>Alain Assaf</name>
+							<folder>
+								<name>_Test</name>
+								<folder>
+									<name>DMP Files</name>
+								</folder>
+							</folder>
+						</folder>
+					</folderpath>
+					<deleteusedresources>yes</deleteusedresources>
+				</properties>
+				<tasks>
+					<task hidden="yes">
+						<parameters>
+							<param>
+								<name>SecurityContext</name>
+								<value1>DOMAIN\USER</value1>
+								<value2>01DE014200A601480114011C00E700AC</value2>
+								<value3/>
+								<type>2</type>
+								<description/>
+								<hint>Please provide the necessary input</hint>
+								<selection/>
+								<inputtiming>
+									<importbb showprev="yes">yes</importbb>
+									<schedulejob showprev="no">no</schedulejob>
+								</inputtiming>
+								<inputoptions>
+									<confirm>no</confirm>
+									<force>no</force>
+								</inputoptions>
+							</param>
+							<param>
+								<name>SERVERNAME</name>
+								<value1>%COMPUTERNAME%</value1>
+								<value2/>
+								<value3/>
+								<type>0</type>
+								<description>This is set by a query</description>
+								<hint>Please provide the necessary input</hint>
+								<selection/>
+								<inputtiming>
+									<importbb showprev="yes">yes</importbb>
+									<schedulejob showprev="no">no</schedulejob>
+								</inputtiming>
+								<inputoptions>
+									<confirm>no</confirm>
+									<force>no</force>
+									<required>no</required>
+									<validation>no</validation>
+								</inputoptions>
+							</param>
+							<param>
+								<name>DUMPEXISTS</name>
+								<value1/>
+								<value2/>
+								<value3/>
+								<type>0</type>
+								<description/>
+								<hint>Please provide the necessary input</hint>
+								<selection/>
+								<inputtiming>
+									<importbb showprev="yes">yes</importbb>
+									<schedulejob showprev="no">no</schedulejob>
+								</inputtiming>
+								<inputoptions>
+									<confirm>no</confirm>
+									<force>no</force>
+									<required>no</required>
+									<validation>no</validation>
+								</inputoptions>
+							</param>
+						</parameters>
+						<conditions>
+							<condition guid="{B2641EA4-3584-42F4-88AB-D7BE4F7F62D8}">
+								<expressions/>
+							</condition>
+							<condition guid="{1F558FDA-F46A-4EDB-A1DD-FC58577AB91D}">
+								<expressions/>
+							</condition>
+							<condition guid="{517F35DF-2D3D-48C9-8296-0A5878E7B56D}">
+								<expressions/>
+							</condition>
+							<condition guid="{3AA1994E-8074-496F-970D-270FC404CC13}">
+								<expressions/>
+								<operator>AND</operator>
+								<actiontrue>3</actiontrue>
+								<parametervaluetrue></parametervaluetrue>
+								<when>0</when>
+								<action>3</action>
+								<parametervalue></parametervalue>
+								<enabled>yes</enabled>
+								<setparametertrue>no</setparametertrue>
+								<parametertrue>SecurityContext</parametertrue>
+								<setparameter>no</setparameter>
+								<parameter>SecurityContext</parameter>
+							</condition>
+							<condition guid="{588A877B-B793-4B1B-BE5A-61CA8B40D1E0}">
+								<expressions>
+									<expression guid="{79905BA6-BBC9-4C27-AA80-4CEA6117F6DE}">
+										<operand>Status of previously executed Task</operand>
+										<operator>=</operator>
+										<value>4</value>
+										<type>15</type>
+									</expression>
+								</expressions>
+								<operator>AND</operator>
+								<actiontrue>3</actiontrue>
+								<parametervaluetrue>1</parametervaluetrue>
+								<when>0</when>
+								<action>0</action>
+								<parametervalue>0</parametervalue>
+								<enabled>yes</enabled>
+								<setparametertrue>yes</setparametertrue>
+								<parametertrue>DUMPEXISTS</parametertrue>
+								<setparameter>yes</setparameter>
+								<parameter>DUMPEXISTS</parameter>
+							</condition>
+							<condition guid="{674B7AD3-0848-418E-87D7-F1FCD47A1E31}">
+								<expressions/>
+							</condition>
+							<condition guid="{5F7A50C3-BA6F-46CA-A07A-B9CA754754C8}">
+								<expressions>
+									<expression guid="{1674F97A-2F6D-4BB0-8577-0E66E387791B}">
+										<operand>DUMPEXISTS</operand>
+										<operator>=</operator>
+										<value>1</value>
+										<type>8</type>
+									</expression>
+								</expressions>
+								<operator>AND</operator>
+								<actiontrue>3</actiontrue>
+								<parametervaluetrue></parametervaluetrue>
+								<when>0</when>
+								<action>0</action>
+								<parametervalue></parametervalue>
+								<enabled>yes</enabled>
+								<setparametertrue>no</setparametertrue>
+								<parametertrue>SecurityContext</parametertrue>
+								<setparameter>no</setparameter>
+								<parameter>SecurityContext</parameter>
+							</condition>
+							<condition guid="{F15A34EF-33E1-4052-8713-1C4803F4B900}">
+								<expressions/>
+							</condition>
+							<condition guid="{CA853DE5-1673-4F58-9BCE-D9CB7B0555D1}">
+								<expressions/>
+							</condition>
+							<condition guid="{E211F818-58BB-4348-A970-B04B55A66AFF}">
+								<expressions/>
+							</condition>
+							<condition guid="{E38C57B9-AF49-4A7E-829F-8A00727E52A7}">
+								<expressions>
+									<expression guid="{1674F97A-2F6D-4BB0-8577-0E66E387791B}">
+										<operand>DUMPEXISTS</operand>
+										<operator>=</operator>
+										<value>1</value>
+										<type>8</type>
+									</expression>
+								</expressions>
+								<operator>AND</operator>
+								<actiontrue>3</actiontrue>
+								<parametervaluetrue></parametervaluetrue>
+								<when>0</when>
+								<action>0</action>
+								<parametervalue></parametervalue>
+								<enabled>yes</enabled>
+								<setparametertrue>no</setparametertrue>
+								<parametertrue>SecurityContext</parametertrue>
+								<setparameter>no</setparameter>
+								<parameter>SecurityContext</parameter>
+							</condition>
+							<condition guid="{6AC5C75F-6FC2-4BF3-BF2C-DB1BC4D0F95A}">
+								<expressions/>
+								<operator>AND</operator>
+								<actiontrue>3</actiontrue>
+								<parametervaluetrue></parametervaluetrue>
+								<when>0</when>
+								<action>3</action>
+								<parametervalue></parametervalue>
+								<enabled>yes</enabled>
+								<setparametertrue>no</setparametertrue>
+								<parametertrue>SecurityContext</parametertrue>
+								<setparameter>no</setparameter>
+								<parameter>SecurityContext</parameter>
+							</condition>
+							<condition guid="{67BA112F-349C-4154-A746-8FD2FFBE10A3}">
+								<expressions>
+									<expression guid="{79905BA6-BBC9-4C27-AA80-4CEA6117F6DE}">
+										<operand>Status of previously executed Task</operand>
+										<operator>=</operator>
+										<value>4</value>
+										<type>15</type>
+									</expression>
+								</expressions>
+								<operator>AND</operator>
+								<actiontrue>3</actiontrue>
+								<parametervaluetrue>1</parametervaluetrue>
+								<when>0</when>
+								<action>0</action>
+								<parametervalue>0</parametervalue>
+								<enabled>yes</enabled>
+								<setparametertrue>yes</setparametertrue>
+								<parametertrue>DUMPEXISTS</parametertrue>
+								<setparameter>yes</setparameter>
+								<parameter>DUMPEXISTS</parameter>
+							</condition>
+							<condition guid="{D44433C8-A607-451E-98F6-F8CF14B1606B}">
+								<expressions>
+									<expression guid="{1674F97A-2F6D-4BB0-8577-0E66E387791B}">
+										<operand>DUMPEXISTS</operand>
+										<operator>=</operator>
+										<value>1</value>
+										<type>8</type>
+									</expression>
+								</expressions>
+								<operator>AND</operator>
+								<actiontrue>3</actiontrue>
+								<parametervaluetrue></parametervaluetrue>
+								<when>0</when>
+								<action>0</action>
+								<parametervalue></parametervalue>
+								<enabled>yes</enabled>
+								<setparametertrue>no</setparametertrue>
+								<parametertrue>SecurityContext</parametertrue>
+								<setparameter>no</setparameter>
+								<parameter>SecurityContext</parameter>
+							</condition>
+							<condition guid="{BBAFAE46-7061-45D3-A599-BD12A59FC3E0}">
+								<expressions/>
+								<operator>AND</operator>
+								<actiontrue>3</actiontrue>
+								<parametervaluetrue></parametervaluetrue>
+								<when>0</when>
+								<action>3</action>
+								<parametervalue></parametervalue>
+								<enabled>yes</enabled>
+							</condition>
+						</conditions>
+					</task>
+					<task>
+						<properties>
+							<type>WAIT</type>
+							<guid>{BBAFAE46-7061-45D3-A599-BD12A59FC3E0}</guid>
+							<description>Wait 600 seconds</description>
+							<enabled>yes</enabled>
+							<comments/>
+							<onerror>fail</onerror>
+						</properties>
+						<settings>
+							<wait>600</wait>
+						</settings>
+					</task>
+					<task>
+						<properties>
+							<type>COMMAND</type>
+							<guid>{3AA1994E-8074-496F-970D-270FC404CC13}</guid>
+							<description>Execute "if not exist %WINDIR%\Minidump\*.dmp EXIT /B 1"</description>
+							<enabled>yes</enabled>
+							<comments/>
+							<onerror>resume</onerror>
+						</properties>
+						<settings>
+							<commandline>if not exist %WINDIR%\Minidump\*.dmp EXIT /B 1</commandline>
+							<username>$[SecurityContext]</username>
+							<password encrypted="yes"/>
+							<loaduserprofile>no</loaduserprofile>
+							<usecmd>yes</usecmd>
+							<redirect>yes</redirect>
+							<failonerroutput>no</failonerroutput>
+							<validateexitcode>yes</validateexitcode>
+							<validateexitcode>yes</validateexitcode>
+							<failifexitcode>no</failifexitcode>
+							<exitcodes>0</exitcodes>
+							<timeout>10</timeout>
+							<terminate>no</terminate>
+							<grablogfile/>
+						</settings>
+					</task>
+					<task>
+						<properties>
+							<type>SMTP</type>
+							<guid>{588A877B-B793-4B1B-BE5A-61CA8B40D1E0}</guid>
+							<description>Send E-mail</description>
+							<enabled>yes</enabled>
+							<comments/>
+							<onerror>resume</onerror>
+						</properties>
+						<settings>
+							<server>SMTPSERVER.DOMAIN</server>
+							<port>25</port>
+							<username>$[SecurityContext]</username>
+							<password encrypted="yes"/>
+							<sender>someone@somewhere.com</sender>
+							<to>someone@somewhere.com</to>
+							<subject>Minidump file found on $[SERVERNAME]</subject>
+							<priority>normal</priority>
+							<message>A minidump file was found on $[SERVERNAME].
+The file has been copied to the network share to \\NETWORKSHARE\Documentation\Outage Reporting\Dumps\$[SERVERNAME]</message>
+							<attachments/>
+						</settings>
+					</task>
+					<task>
+						<properties>
+							<type>FILEOPERATIONS</type>
+							<guid>{5F7A50C3-BA6F-46CA-A07A-B9CA754754C8}</guid>
+							<description>Perform 3 file operations</description>
+							<enabled>yes</enabled>
+							<comments/>
+							<onerror>resume</onerror>
+							<ignore_errors>no</ignore_errors>
+						</properties>
+						<settings>
+							<fileoperationtask>
+								<securitycontext>
+									<username>$[SecurityContext]</username>
+									<password encrypted="yes"/>
+								</securitycontext>
+								<type>create</type>
+								<sourcelocation>\\NETWORKSHARE\Documentation\Outage Reporting\Dumps\$[SERVERNAME]</sourcelocation>
+								<parameters/>
+							</fileoperationtask>
+							<fileoperationtask>
+								<securitycontext>
+									<username>$[SecurityContext]</username>
+									<password encrypted="yes"/>
+								</securitycontext>
+								<type>copy</type>
+								<sourcelocation>%SystemRoot%\Minidump\*.*</sourcelocation>
+								<destinationlocation>\\NETWORKSHARE\Documentation\Outage Reporting\Dumps\$[SERVERNAME]</destinationlocation>
+								<parameters/>
+							</fileoperationtask>
+							<fileoperationtask>
+								<securitycontext>
+									<username>$[SecurityContext]</username>
+									<password encrypted="yes"/>
+								</securitycontext>
+								<type>delete</type>
+								<sourcelocation>%SystemRoot%\Minidump\*.*</sourcelocation>
+								<parameters/>
+							</fileoperationtask>
+						</settings>
+					</task>
+					<task>
+						<properties>
+							<type>COMMAND</type>
+							<guid>{6AC5C75F-6FC2-4BF3-BF2C-DB1BC4D0F95A}</guid>
+							<description>Execute "if not exist %WINDIR%\*.dmp EXIT /B 1"</description>
+							<enabled>yes</enabled>
+							<comments/>
+							<onerror>resume</onerror>
+						</properties>
+						<settings>
+							<commandline>if not exist %WINDIR%\*.dmp EXIT /B 1</commandline>
+							<username>$[SecurityContext]</username>
+							<password encrypted="yes"/>
+							<loaduserprofile>no</loaduserprofile>
+							<usecmd>yes</usecmd>
+							<redirect>yes</redirect>
+							<failonerroutput>no</failonerroutput>
+							<validateexitcode>yes</validateexitcode>
+							<validateexitcode>yes</validateexitcode>
+							<failifexitcode>no</failifexitcode>
+							<exitcodes>0</exitcodes>
+							<timeout>10</timeout>
+							<terminate>no</terminate>
+							<grablogfile/>
+						</settings>
+					</task>
+					<task>
+						<properties>
+							<type>SMTP</type>
+							<guid>{67BA112F-349C-4154-A746-8FD2FFBE10A3}</guid>
+							<description>Send E-mail</description>
+							<enabled>yes</enabled>
+							<comments/>
+							<onerror>resume</onerror>
+						</properties>
+						<settings>
+							<server>SMTPSERVER.DOMAIN</server>
+							<port>25</port>
+							<username>$[SecurityContext]</username>
+							<password encrypted="yes"/>
+							<sender>someone@somewhere.com</sender>
+							<to>someone@somewhere.com</to>
+							<subject>Full memory dump file found on $[SERVERNAME]</subject>
+							<priority>normal</priority>
+							<message>A full memory dump file was found on $[SERVERNAME].
+The file has been copied to the network share to \\NETWORKSHARE\Documentation\Outage Reporting\Dumps\$[SERVERNAME]</message>
+							<attachments/>
+						</settings>
+					</task>
+					<task>
+						<properties>
+							<type>FILEOPERATIONS</type>
+							<guid>{D44433C8-A607-451E-98F6-F8CF14B1606B}</guid>
+							<description>Perform 3 file operations</description>
+							<enabled>yes</enabled>
+							<comments/>
+							<onerror>resume</onerror>
+							<ignore_errors>no</ignore_errors>
+						</properties>
+						<settings>
+							<fileoperationtask>
+								<securitycontext>
+									<username>$[SecurityContext]</username>
+									<password encrypted="yes"/>
+								</securitycontext>
+								<type>create</type>
+								<sourcelocation>\\NETWORKSHARE\Documentation\Outage Reporting\Dumps\$[SERVERNAME]</sourcelocation>
+								<parameters/>
+							</fileoperationtask>
+							<fileoperationtask>
+								<securitycontext>
+									<username>$[SecurityContext]</username>
+									<password encrypted="yes"/>
+								</securitycontext>
+								<type>copy</type>
+								<sourcelocation>%WINDIR%\*.dmp</sourcelocation>
+								<destinationlocation>\\NETWORKSHARE\Documentation\Outage Reporting\Dumps\$[SERVERNAME]</destinationlocation>
+								<parameters/>
+							</fileoperationtask>
+							<fileoperationtask>
+								<securitycontext>
+									<username>$[SecurityContext]</username>
+									<password encrypted="yes"/>
+								</securitycontext>
+								<type>delete</type>
+								<sourcelocation>%WINDIR%\*.dmp</sourcelocation>
+								<parameters/>
+							</fileoperationtask>
+						</settings>
+					</task>
+				</tasks>
+			</module>
+		</modules>
+		<resources/>
+		<runbooks/>
+	</buildingblock>
+</reswisdom>

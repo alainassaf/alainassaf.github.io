@@ -16,23 +16,22 @@ share-img: /assets/img/Cloud-Journey-1-Docker-and-Python/2022-12-21-Cloud-Journe
 * TOC
 {:toc}
 
-# Note
-*Beginning in December of 2022, I started focusing my learning on Cloud technologies. This series will highlight things I've learned and (hopefully) helpful tips for anyone else looking to expand their skill set.*
+**Note:** *Beginning in December of 2022, I started focusing my learning on Cloud technologies. This series will highlight things I've learned and (hopefully) helpful tips for anyone else looking to expand their skill set.*
 
 # Scenario
 Advancements in Infrastrucutre as Code products have driven a lot of the automation an efficienices on various cloud platforms. These IaC products are largely Linux-based and frequently use Python. Python is one of the most popular programming languages and learning (or re-learning) this language will help my cloud journey moving forward.
 
-In order to kill two birds with one stone, I want to setup a Linux-based Python envrionment using containers. Thus I would get an easily created, light-weight Python environment and get familiar with Docker containers. I'm an unabashed Microsoft Windows fan, so I looked at using Docker Desktop for Windows to help in creating this Python enviromnet. 
+In order to kill two birds with one stone, I want to setup a Linux-based Python envrionment using containers. I will get an easily created, light-weight Python environment and gain familiarity with Docker containers. I'm an unabashed Microsoft Windows fan, so I looked at using Docker Desktop for Windows to help in creating this Python enviromnet. 
 
 # Requirements
-In order to get started, you will need the following [requirements](https://docs.docker.com/desktop/install/windows-install/#system-requirements). These requirements vary depending on whether you have Windows Pro or another version. With **Home and Pro** can use the Windows Subsytem for Linux (WSL). With Windows **Pro**, you can install the Hyper-V feature.
+In order to get started, you will need the following [**requirements**](https://docs.docker.com/desktop/install/windows-install/#system-requirements). These vary depending on whether you have Windows Pro or another version. With **Home and Pro** can use the Windows Subsytem for Linux (WSL). With Windows **Pro**, you can install the Hyper-V feature.
 
 ## Hardware Requirements
 1. Windows 11 64-bit: Home or Pro version 21H2 or higher, or Enterprise or Education version 21H2 or higher
 2. Windows 10 64-bit: Home or Pro 21H1 (build 19043) or higher, or Enterprise or Education 20H2 (build 19042) or higher.
-3. 64-bit processor with [SLAT](https://en.wikipedia.org/wiki/Second_Level_Address_Translation)
+3. 64-bit processor with [**SLAT**](https://en.wikipedia.org/wiki/Second_Level_Address_Translation)
 4. 4GB RAM
-5. BIOS-level hardware [virtualization](https://docs.docker.com/desktop/troubleshoot/topics/#virtualization) support
+5. BIOS-level hardware [**virtualization**](https://docs.docker.com/desktop/troubleshoot/topics/#virtualization) support
 
 ## Enabling the WSL2 feature on Windows
 1. Run PowerShell or Windows Command Prompt as an administrator
@@ -83,4 +82,4 @@ Overall, using Docker containers with Visual Studio Code is a powerful combinati
 If you received any value from reading this post, please help by becoming a [**supporter**](https://www.paypal.com/donate?hosted_button_id=73HNLGA2SGLLU).
 
 *Thanks for Reading,*
-*Alain Assaf*~
+*Alain Assaf*

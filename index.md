@@ -14,8 +14,9 @@ Here are some recent posts...
 # Doing stuff with Citrix
 These posts deal with managing/engineering/architecting a Citrix environment using PowerShell
 
-* [**Launching the WEM Console**](2021-02-04-Powershell-Launching-the-WEM-Console)
-* [**Get-BrokerApplication**](2022-12-21-Powershell-Get-BrokerApplication)
+* [**Launching multiple WEM Consoles**](2021-02-04-Powershell-Launching-the-WEM-Console)
+* [**Get-BrokerApplication cmdlet**](2022-12-21-Powershell-Get-BrokerApplication)
+* [**Setting PVS Personality Strings**](2018-01-05-powershell-friday-script-blitz-3)
 
 # More Content
 I have written posts that I hope have information that is just as valuable as those featured on the front page. Please use these links to access the rest of my content.
