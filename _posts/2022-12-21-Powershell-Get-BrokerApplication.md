@@ -4,9 +4,9 @@ title: "Citrix: Get-BrokerApplication"
 date: 2022-12-21
 readtime: true
 tags: [Citrix,PowerShell,Report]
-cover-img: ["/assets/img/Citrix-Installing-Broker-Cmdlets/2022-12-21-Installing-Broker-Cmdlets.jpg" : "Pixabay"]
-thumbnail-img: /assets/img/Citrix-Installing-Broker-Cmdlets/2022-12-21-Installing-Broker-Cmdlets.jpg
-share-img: /assets/img/Citrix-Installing-Broker-Cmdlets/2022-12-21-Installing-Broker-Cmdlets.jpg
+cover-img: ["/assets/img/Powershell-Get-BrokerApplication/powershell-get-brokerapplication.jpg" : "Pixabay"]
+thumbnail-img: /assets/img/Powershell-Get-BrokerApplication/powershell-get-brokerapplication.jpg
+share-img: /assets/img/Powershell-Get-BrokerApplication/powershell-get-brokerapplication.jpg
 ---
 
 Citrix has provided PowerShell management of its various products for years. In this post, we will look at Get-BrokerApplication, which retrieves the applications published in a Citrix farm.
