@@ -172,20 +172,13 @@ footer-hover-col: "#0085A1"
 #################################
 
 # Fill in your Google Analytics gtag.js ID to track your website using gtag
-#GA4
-gtag: "G-KWGSZ5M7SQ"
-#GA3
-#gtag: "G-5C38G86WDQ"
+gtag: "G-5C38G86WDQ"
 
 # Fill in your Google Analytics ID to track your website using Google Analytics
-#GA4
-#google_analytics: "335765916"
-#GA3
-#google_analytics: "335545553"
+#google_analytics: ""
 
 # Google Tag Manager ID
-#gtm: "G-5C38G86WDQ"
-gtm: "alainassaf.com - GA4"
+gtm: "alainassaf.github.io - GA4"
 
 # Matomo (aka Piwik) Web statistics
 # Uncomment the following section to enable Matomo. The opt-out parameter controls
