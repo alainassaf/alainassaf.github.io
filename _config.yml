@@ -178,7 +178,7 @@ gtag: "G-5C38G86WDQ"
 #google_analytics: ""
 
 # Google Tag Manager ID
-gtm: "alainassaf.github.io - GA4"
+gtm: "alainassaf-GA4"
 
 # Matomo (aka Piwik) Web statistics
 # Uncomment the following section to enable Matomo. The opt-out parameter controls
