@@ -53,7 +53,7 @@ Citrix Hypervisor | VM Count
 XenServerPool1 | 108
 XenServerPool2 | 109
 
-# Conculsion
+# Conclusion
 I hope this post encourages you to leverage the PowerShell commands for Citrix Hypervisor. You can find the full function on my [GitHub](https://github.com/alainassaf/functions) page.
 
 # Learning More
