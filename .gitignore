@@ -1,3 +1,6 @@
+# vscode
+.vscode/settings.json
+
 # project
 _site
 .sass-cache
@@ -12,3 +15,4 @@ Making_docker_container.txt
 # Jekyll
 .jekyll-metadata
 Gemfile.lock
+
