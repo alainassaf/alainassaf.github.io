@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Alain Assaf
-subtitle: Managing virtualization technologies
+subtitle: Leveraging Automation to Manage Technologies
 ---
 
-Welcome to my blog, a site that focuses on learning PowerShell and how to leverage it to manage virtualization technologies. 
+Welcome to my blog, a site that focuses on using *automation* (mainly PowerShell) to manage various enterprise technologies. 
 
 # Recent Posts
 Here are some recent posts...
@@ -33,6 +33,7 @@ Managing EUC technologies and platforms with PowerShell covers a lot of topics. 
 * *Please suggest any other resources*
 
 # Value for value
-If you feel you are getting value from this blog, please help by becoming a [**supporter**](https://www.paypal.com/donate?hosted_button_id=73HNLGA2SGLLU){:target="_blank"}.
+If you received any value from reading this post, please [**buy me a coffee**](https://www.buymeacoffee.com/j72aXgIYJh){:target="_blank"} to show your support.
+<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="j72aXgIYJh" data-color="#16609f" data-emoji="☕"  data-font="Arial" data-text="Buy me a coffee" data-outline-color="#ffffff" data-font-color="#ffffff" data-coffee-color="#FFDD00" ></script>
 
-Please report any issues with this site as a [**GitHub Issue**](https://github.com/alainassaf/alainassaf.github.io/issues).
+Please report any issues with this site to [**GitHub**](https://github.com/alainassaf/alainassaf.github.io/issues).

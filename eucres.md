@@ -26,4 +26,5 @@ Managing EUC technologies and platforms with PowerShell covers a lot of topics. 
 * [**CTXPro**](https://ctxpro.com/){:target="_blank"}
 
 ### Value for value
-If you feel you are getting value from this blog, please help by becoming a [**supporter**](https://www.paypal.com/donate?hosted_button_id=73HNLGA2SGLLU){:target="_blank"}.
+If you received any value from reading this post, please [**buy me a coffee**](https://www.buymeacoffee.com/j72aXgIYJh){:target="_blank"} to show your support.
+<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="j72aXgIYJh" data-color="#16609f" data-emoji="☕"  data-font="Arial" data-text="Buy me a coffee" data-outline-color="#ffffff" data-font-color="#ffffff" data-coffee-color="#FFDD00" ></script>
