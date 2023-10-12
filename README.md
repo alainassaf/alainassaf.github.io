@@ -23,6 +23,10 @@ This video walks you step-by-step in creating a local docker container and using
 
 Once the framework was in place, I downloaded the latest release of Beautiful Jekyll and customized it to my needs.
 
+# Value for value
+If you received any value from reading this post, please [**buy me a coffee**](https://www.buymeacoffee.com/j72aXgIYJh){:target="_blank"} to show your support.
+<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="j72aXgIYJh" data-color="#16609f" data-emoji="☕"  data-font="Arial" data-text="Buy me a coffee" data-outline-color="#ffffff" data-font-color="#ffffff" data-coffee-color="#FFDD00" ></script>
+
 # Copyright Notice
 
 *Copyright ©2020-2023 [Alain Assaf](https://alainassaf.com)

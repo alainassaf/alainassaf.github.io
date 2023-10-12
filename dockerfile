@@ -38,7 +38,24 @@ RUN apt-get -y install git \
     libgdbm6 \
     libgdbm-dev \
     libdb-dev \
-    apt-utils
+    apt-utils \
+
+# "#################################################"
+# "Fix for Conversion error: Jekyll::Converters::Scss encountered an error while converting 'assets/css/style.scss':
+#       "Invalid US-ASCII character "\xE2" on line 5"
+    locales
+
+RUN dpkg-reconfigure locales && \
+  locale-gen C.UTF-8 && \
+  /usr/sbin/update-locale LANG=C.UTF-8
+
+RUN echo 'en_US.UTF-8 UTF-8' >> /etc/locale.gen && \
+  locale-gen
+
+# Set default locale for the environment
+ENV LC_ALL C.UTF-8
+ENV LANG en_US.UTF-8
+ENV LANGUAGE en_US.UTF-8
 
 # "#################################################"
 # "GitHub Pages/Jekyll is based on Ruby. Set the version and path"

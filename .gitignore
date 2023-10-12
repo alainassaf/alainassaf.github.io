@@ -15,4 +15,9 @@ Making_docker_container.txt
 # Jekyll
 .jekyll-metadata
 Gemfile.lock
-
+_site/
+.sass-cache/
+.jekyll-cache/
+.bundle/
+vendor/
+**/.DS_Store

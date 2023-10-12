@@ -5,7 +5,7 @@ subtitle: "Cloud Journey 1"
 date: 2022-12-21
 readtime: true
 tags: [Docker, Python, VS Code, Cloud Journey]
-cover-img: ["/assets/img/Cloud-Journey-1-Docker-and-Python/2022-12-21-Cloud-Journey-1-Docker-and-Python.jpg" : "Pixabay"]
+cover-img: ["/assets/img/Cloud-Journey-1-Docker-and-Python/2022-12-21-Cloud-Journey-1-Docker-and-Python.jpg" : "by [https://pixabay.com/users/coltsfan-5936078] via Pixabay"]
 thumbnail-img: /assets/img/Cloud-Journey-1-Docker-and-Python/2022-12-21-Cloud-Journey-1-Docker-and-Python.jpg
 share-img: /assets/img/Cloud-Journey-1-Docker-and-Python/2022-12-21-Cloud-Journey-1-Docker-and-Python.jpg
 ---
@@ -88,5 +88,5 @@ The simplest way to create a container to create a DEV Container.
 ### Value for Value
 If you received any value from reading this post, please help by becoming a [**supporter**](https://www.paypal.com/donate?hosted_button_id=73HNLGA2SGLLU).
 
-*Thanks for Reading,*
+*Thanks for Reading,*  
 *Alain Assaf*
