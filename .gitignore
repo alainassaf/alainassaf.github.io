@@ -8,10 +8,17 @@ _site
 Thumbs.db
 ehthumbs.db
 Making_docker_container.txt
+OLD_docker.file
 
 # Jekyll
 .jekyll-metadata
 Gemfile.lock
+_site/
+.sass-cache/
+.jekyll-cache/
+.bundle/
+vendor/
+**/.DS_Store
 
 # vsCode
 .vscode/*

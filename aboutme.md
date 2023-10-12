@@ -2,7 +2,7 @@
 layout: page
 title: About me
 comments: false
-last-updated: 2022-08-27
+last-updated: 2023-10-03
 ---
 
 ### Hello,
@@ -24,14 +24,15 @@ You can view my [**LinkedIn Profile**](http://www.linkedin.com/in/alainassaf){:t
 I can be reached directly at: <alainassaf@outlook.com>
 
 # Value for value
-If you feel you are getting value from this blog, please help by becoming a [**supporter**](https://www.paypal.com/donate?hosted_button_id=73HNLGA2SGLLU){:target="_blank"}.
+If you received any value from reading this post, please [**buy me a coffee**](https://www.buymeacoffee.com/j72aXgIYJh){:target="_blank"} to show your support.
+<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="j72aXgIYJh" data-color="#16609f" data-emoji="☕"  data-font="Arial" data-text="Buy me a coffee" data-outline-color="#ffffff" data-font-color="#ffffff" data-coffee-color="#FFDD00" ></script>
 
-Thanks for reading,  
-Alain Assaf
+*Thanks for reading,*  
+*Alain Assaf*
   
     
 ***
 ## Copyright Notice
-The entire alainassaf.com web site is Copyright ©2020-2022 by Alain Assaf. All Rights Reserved. The alainassaf.com site may not be copied or duplicated in whole or part by any means without express prior agreement in writing or unless specifically noted on the site.
+The entire alainassaf.com web site is Copyright ©2020-2023 by Alain Assaf. All Rights Reserved. The alainassaf.com site may not be copied or duplicated in whole or part by any means without express prior agreement in writing or unless specifically noted on the site.
 
 Some photographs or documents contained on the site may be the copyrighted property of others; acknowledgement of those copyrights is hereby given. All such material is used with the permission of the owner.
