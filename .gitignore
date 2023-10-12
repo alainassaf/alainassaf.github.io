@@ -12,3 +12,7 @@ Making_docker_container.txt
 # Jekyll
 .jekyll-metadata
 Gemfile.lock
+
+# vsCode
+.vscode/*
+.vscode/settings.json
