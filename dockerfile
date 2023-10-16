@@ -14,6 +14,8 @@
 #  3. Create the Docker image/container
 #  4. Locate the shell file in this Gist file and run it in the local repo's root
 # "#################################################"
+# This is for the PROD version of alainassaf.github.io
+# "#################################################"
 FROM ubuntu:22.04
 
 # "#################################################"
@@ -25,25 +27,25 @@ RUN apt-get update
 # "Install Ubuntu prerequisites for Ruby and GitHub Pages (Jekyll)"
 # "Partially based on https://gist.github.com/jhonnymoreira/777555ea809fd2f7c2ddf71540090526"
 RUN apt-get -y install git \
-    curl \
-    autoconf \
-    bison \
-    build-essential \
-    libssl-dev \
-    libyaml-dev \
-    libreadline6-dev \
-    zlib1g-dev \
-    libncurses5-dev \
-    libffi-dev \
-    libgdbm6 \
-    libgdbm-dev \
-    libdb-dev \
-    apt-utils \
+  curl \
+  autoconf \
+  bison \
+  build-essential \
+  libssl-dev \
+  libyaml-dev \
+  libreadline6-dev \
+  zlib1g-dev \
+  libncurses5-dev \
+  libffi-dev \
+  libgdbm6 \
+  libgdbm-dev \
+  libdb-dev \
+  apt-utils \
 
-# "#################################################"
-# "Fix for Conversion error: Jekyll::Converters::Scss encountered an error while converting 'assets/css/style.scss':
-#       "Invalid US-ASCII character "\xE2" on line 5"
-    locales
+  # "#################################################"
+  # "Fix for Conversion error: Jekyll::Converters::Scss encountered an error while converting 'assets/css/style.scss':
+  #       "Invalid US-ASCII character "\xE2" on line 5"
+  locales
 
 RUN dpkg-reconfigure locales && \
   locale-gen C.UTF-8 && \
@@ -68,15 +70,15 @@ ENV PATH ${RBENV_ROOT}/bin:${RBENV_ROOT}/shims:$PATH
 # "#################################################"
 # "Install rbenv to manage Ruby versions"
 RUN git clone https://github.com/rbenv/rbenv.git ${RBENV_ROOT} \
-    && git clone https://github.com/rbenv/ruby-build.git \
-    ${RBENV_ROOT}/plugins/ruby-build \
-    && ${RBENV_ROOT}/plugins/ruby-build/install.sh \
-    && echo 'eval "$(rbenv init -)"' >> /etc/profile.d/rbenv.sh
+  && git clone https://github.com/rbenv/ruby-build.git \
+  ${RBENV_ROOT}/plugins/ruby-build \
+  && ${RBENV_ROOT}/plugins/ruby-build/install.sh \
+  && echo 'eval "$(rbenv init -)"' >> /etc/profile.d/rbenv.sh
 
 # "#################################################"
 # "Install ruby and set the global version"
 RUN rbenv install ${RUBY_VERSION} \
-    && rbenv global ${RUBY_VERSION}
+  && rbenv global ${RUBY_VERSION}
 
 # "#################################################"
 # "Install the version of Jekyll that GitHub Pages supports"
@@ -85,3 +87,11 @@ RUN rbenv install ${RUBY_VERSION} \
 # "       use this line instead:"
 # "       RUN gem install jekyll -v '~>3.9'"
 RUN gem install jekyll -v '3.9.3'
+
+# From James Kindon 
+# https://jkindon.com/hydejack-github-pages-docker-containers/#hello-hydejack
+RUN gem install bundler
+RUN gem update --system
+RUN gem update
+RUN ln -sf /bin/bash /bin/sh
+RUN sh
