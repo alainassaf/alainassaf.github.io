@@ -4,5 +4,3 @@
 * 2023-02-15 [**CTA Award for 2023**](/2023-02-15-CTA-Award-for-2023/?utm_source=blog&utm_medium=blog&utm_content=recent)
 * 2022-12-21 [**Citrix: Get-BrokerApplication**](/2022-12-21-Powershell-Get-BrokerApplication/?utm_source=blog&utm_medium=blog&utm_content=recent)
 * 2022-08-22 [**Powershell: Citrix Hypervisor Count Function**](/2022-08-22-PowerShell-Citrix-Hypervisor-Count-Function/?utm_source=blog&utm_medium=blog&utm_content=recent)
-* 2022-06-29 [**level**](/2022-06-29-wem-2206-update-available/?utm_source=blog&utm_medium=blog&utm_content=recent)
-* 2022-03-24 [**level**](/2022-03-24-wem-2203-update-available/?utm_source=blog&utm_medium=blog&utm_content=recent)
