@@ -32,7 +32,6 @@ If you received any value from reading this post, please [**buy me a coffee**](h
     
 ***
 ## Copyright Notice
-The entire alainassaf.com web site is Copyright ©2020-2023 by Alain Assaf. All Rights Reserved. The alainassaf.com site may not be copied or duplicated in whole or part by any means without express prior agreement in writing or unless specifically noted on the site.
-The entire alainassaf.com web site is Copyright ©2020-2023 by Alain Assaf. All Rights Reserved. The alainassaf.com site may not be copied or duplicated in whole or part by any means without express prior agreement in writing or unless specifically noted on the site.
+The entire alainassaf.com web site is Copyright ©2020-2024 by Alain Assaf. All Rights Reserved. The alainassaf.com site may not be copied or duplicated in whole or part by any means without express prior agreement in writing or unless specifically noted on the site.
 
 Some photographs or documents contained on the site may be the copyrighted property of others; acknowledgement of those copyrights is hereby given. All such material is used with the permission of the owner.

@@ -1,3 +1,4 @@
+* 2024-01-03 [**2023 Review**](/2024-01-03-2023-review/?utm_source=blog&utm_medium=blog&utm_content=recent)
 * 2023-12-19 [**Docker and Python**](/2023-12-19-Cloud-Journey-1-Docker-and-Python/?utm_source=blog&utm_medium=blog&utm_content=recent)
 * 2023-10-12 [**Automation Me**](/2023-10-12-automation-me/?utm_source=blog&utm_medium=blog&utm_content=recent)
 * 2023-02-15 [**CTA Award for 2023**](/2023-02-15-CTA-Award-for-2023/?utm_source=blog&utm_medium=blog&utm_content=recent)
@@ -5,4 +6,3 @@
 * 2022-08-22 [**Powershell: Citrix Hypervisor Count Function**](/2022-08-22-PowerShell-Citrix-Hypervisor-Count-Function/?utm_source=blog&utm_medium=blog&utm_content=recent)
 * 2022-06-29 [**level**](/2022-06-29-wem-2206-update-available/?utm_source=blog&utm_medium=blog&utm_content=recent)
 * 2022-03-24 [**level**](/2022-03-24-wem-2203-update-available/?utm_source=blog&utm_medium=blog&utm_content=recent)
-* 2021-12-14 [**level**](/2021-12-14-wem-2112-update-available/?utm_source=blog&utm_medium=blog&utm_content=recent)

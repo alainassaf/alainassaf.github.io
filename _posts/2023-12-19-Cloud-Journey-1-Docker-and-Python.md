@@ -18,7 +18,7 @@ share-img: /assets/img/Cloud-Journey-1-Docker-and-Python/2023-12-19-Cloud-Journe
 {:toc}
 
 # Scenario
-Advancements in Infrastructure as Code products have driven a lot of the automation efficiency on cloud platforms. These IaC products are largely Linux-based and frequently use Python. Python is one of the most popular programming languages and learning (or re-learning) this language will help my cloud journey moving forward.
+Advancements in Infrastructure as Code products have driven a lot of automation efficiency on cloud platforms. These IaC products are largely Linux-based and frequently use Python. Python is one of the most popular programming languages and learning (or re-learning) this language will help my cloud journey moving forward.
 
 In order to kill two birds with one stone, I will setup a Linux-based Python environment using containers. I will get an easily created, light-weight Python environment and gain familiarity with Docker containers. I'm an unabashed Microsoft Windows fan, so I looked at using Docker Desktop for Windows to help in creating this Python environment. 
 
