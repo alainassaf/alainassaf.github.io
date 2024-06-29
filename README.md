@@ -26,8 +26,7 @@ Once the framework was in place, I downloaded the latest release of Beautiful Je
 I go into depth about my blog history and how I leverage PowerShell to create new posts [here](https://alainassaf.com/2023-10-12-automation-me/).
 
 # Value for value
-If you received any value from reading this post, please [**buy me a coffee**](https://www.buymeacoffee.com/j72aXgIYJh){:target="_blank"} to show your support.
-<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="j72aXgIYJh" data-color="#16609f" data-emoji="☕"  data-font="Arial" data-text="Buy me a coffee" data-outline-color="#ffffff" data-font-color="#ffffff" data-coffee-color="#FFDD00" ></script>
+If you received any value from reading this post, please [**buy me a coffee**](https://www.buymeacoffee.com/j72aXgIYJh) to show your support.
 
 # Copyright Notice
 
